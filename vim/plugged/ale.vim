@@ -14,6 +14,6 @@ let g:ale_fixers = {
       \  'html': ['alex'],
       \  'erb': ['erb']
       \}
-let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
+let g:ale_linter_aliases = {'tsx': ['typescriptreact', 'typescript']}
 let g:ale_disable_lsp = 1
 let g:ale_sign_error  = emoji#for('collision')

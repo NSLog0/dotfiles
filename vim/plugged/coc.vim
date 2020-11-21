@@ -44,18 +44,14 @@ inoremap <silent><expr> <CR>
   \ "\<C-g>u\<CR>"
 
 let g:coc_global_extensions = [
-      \ 'coc-tsserver', 
-      \ 'coc-emmet', 
-      \ 'coc-css', 
-      \ 'coc-html', 
-      \ 'coc-json', 
-      \ 'coc-eslint', 
-      \ 'coc-git', 
-      \ 'coc-json', 
-      \ 'coc-markdownlint', 
-      \ 'coc-python', 
-      \ 'coc-snippets', 
-      \ 'coc-html', 
+      \ 'coc-tsserver',
+      \ 'coc-emmet',
+      \ 'coc-css',
+      \ 'coc-html',
+      \ 'coc-json',
+      \ 'coc-python',
+      \ 'coc-snippets',
+      \ 'coc-html',
       \ 'coc-highlight',
       \ 'coc-spell-checker',
       \ 'coc-vimlsp',
@@ -64,6 +60,6 @@ let g:coc_global_extensions = [
       \]
 
 " Use Tab to jump to next snippet placeholder
-let g:coc_snippet_next = '<S-Tab>'  
+let g:coc_snippet_next = '<S-Tab>'
 
-" autocmd CursorHold * silent call CocActionAsync('highlight')
+autocmd CursorHold * silent call CocActionAsync('highlight')

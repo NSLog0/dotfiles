@@ -24,7 +24,7 @@ set re=1
 set clipboard=unnamed
 
 "ignore case when searching.
-set ignorecase 
+set ignorecase
 
 " Automatic word wrapping
 set tw=90

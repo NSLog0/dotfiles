@@ -1,5 +1,3 @@
-
-
 "export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 
 " [Buffers] Jump to the existing window if possible
