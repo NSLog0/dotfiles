@@ -1,0 +1,19 @@
+" Get current vimrc path and directory
+let s:rcpath=resolve(expand('<sfile>:p'))
+let s:srcdir=fnamemodify(s:rcpath, ':h')
+
+" Source external configs
+execute 'source'.s:srcdir.'/plugins.vim'
+execute 'source'.s:srcdir.'/mapping.vim'
+execute 'source'.s:srcdir.'/settings.vim'
+
+" load all plugins
+for f in split(glob('source'.s:srcdir.'/plugged'), '\n')
+    execute 'source' f
+endfor
+
+
+" Load local vimrc if it exists
+if !empty(glob('~/.vimrc.local'))
+    source ~/.vimrc.local
+endif
