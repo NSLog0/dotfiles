@@ -1,6 +1,6 @@
 
 
-export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
+"export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 
 " [Buffers] Jump to the existing window if possible
 let g:fzf_buffers_jump = 1

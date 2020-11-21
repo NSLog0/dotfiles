@@ -1,0 +1,6 @@
+{
+    "python.jediPath": "/usr/local/lib/python3.8/site-packages",
+    "python.jediEnabled": false,
+    "phpactor.enable": true,
+    "phpactor.path": "/Users/nslog0/phpactor/bin/phpactor"
+  }

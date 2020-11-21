@@ -7,11 +7,12 @@ execute 'source'.s:srcdir.'/plugins.vim'
 execute 'source'.s:srcdir.'/mapping.vim'
 execute 'source'.s:srcdir.'/settings.vim'
 
-" load all plugins
-for f in split(glob('source'.s:srcdir.'/plugged'), '\n')
-    execute 'source' f
-endfor
+let plugins = glob(s:srcdir.'/plugged/*.vim',0 ,1)
 
+" load all plugins
+for file in plugins
+    execute 'source' file
+endfor
 
 " Load local vimrc if it exists
 if !empty(glob('~/.vimrc.local'))
