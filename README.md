@@ -1,9 +1,29 @@
-# my-vimrc
-My vimrc that I use everyday
+# Installation
+./install.sh
 
-Hi all, this repo I would like to share my .vimrc with who is interesting to use vim and looking for a configuration, In the file has a plugin which is setting for Web develpment, mostly.
+# What you will get
+- neovim and configuration for Nodejs, React, TypeScript, JavaScript, PHP, Python, Ruby developer
+- nodejs
+- php and ps-cs-fixer
+- yarn
+- zsh
+- tmux
+- alacritty
+- font-hack-nerd-font
+- postman
+- iterm2
+- terraform
+- ctags
+- cocopods
+- awscli
+- other will update soon
 
-I'm using https://github.com/junegunn/vim-plug to manange plugins such as install, remove and update. To use .vimrc file just copy to your OS or pickup a piece of code you need.
+# Details
+This dotfile for MacOS user but if you are using linux and you're instesting about vim configuration use can just run this
+```
+ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+```
+then you will get all vim stuff
 
 
 #### Please copy file or fork to you own respo. Do not commit or try to edit file on this respo 
