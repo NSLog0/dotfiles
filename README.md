@@ -1,5 +1,8 @@
 # Installation
-./install.sh
+
+```
+$ ./install.sh
+```
 
 # What you will get
 - neovim and configuration for Nodejs, React, TypeScript, JavaScript, PHP, Python, Ruby developer
