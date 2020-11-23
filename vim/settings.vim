@@ -21,8 +21,6 @@ set synmaxcol=128
 " syntax sync minlines=256
 set re=1
 
-set clipboard=unnamed
-
 "ignore case when searching.
 " set ignorecase
 

@@ -1,6 +1,7 @@
 "export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 
-noremap  <leader>find :Files<CR>
+noremap  <leader>find :ZFZ<CR>
+map      <leader>a :Ag<CR>
 
 " [Buffers] Jump to the existing window if possible
 let g:fzf_buffers_jump = 1

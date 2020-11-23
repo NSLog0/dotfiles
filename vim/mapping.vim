@@ -4,7 +4,6 @@ onoremap <Tab> <Esc>
 cnoremap <leader><Tab> <C-C><Esc>
 nnoremap <leader>w :w<CR>
 map      <leader>q :q<CR>
-map      <leader>a :Ag<CR>
 vmap     <leader>e "*y
 inoremap jj <Esc>
 nnoremap n nzzzv
