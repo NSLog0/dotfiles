@@ -51,6 +51,7 @@ brew "watchman"
 brew "yarn"
 brew "hashicorp/tap/terraform"
 brew "zsh"
+brew "python@3.9"
 
 cask "postman"
 cask "iterm2"
