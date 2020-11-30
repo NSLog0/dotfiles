@@ -10,3 +10,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 chsh -s /usr/local/bin/zsh
 
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
