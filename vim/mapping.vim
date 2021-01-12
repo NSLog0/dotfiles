@@ -20,7 +20,6 @@ nnoremap H <s-^>
 vnoremap H <s-^>
 nnoremap <leader>tab <c-w><s-t>
 vnoremap q <Esc>
-tnoremap <Esc> <C-W>N
 nnoremap dd "_dd
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
