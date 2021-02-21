@@ -36,3 +36,9 @@ set tabstop=2 shiftwidth=2 softtabstop=2 smarttab expandtab nocindent autoindent
 " file setting
 autocmd FileType python : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab nocindent autoindent
 autocmd FileType php : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab nocindent autoindent
+
+let g:python_host_prog = '/usr/local/bin/python'
+let g:python3_host_prog = '/usr/local/bin/python'
+
+let g:loaded_python_provider = 0
+let g:loaded_python3_provider = 0

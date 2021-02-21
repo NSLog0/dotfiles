@@ -32,4 +32,7 @@ Plug 'StanAngeloff/php.vim'
 Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
 Plug 'stephpy/vim-php-cs-fixer'
 Plug 'juliosueiras/vim-terraform-completion'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
 call plug#end()

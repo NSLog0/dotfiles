@@ -50,15 +50,16 @@ let g:coc_global_extensions = [
       \ 'coc-json',
       \ 'coc-python',
       \ 'coc-snippets',
-      \ 'coc-html',
       \ 'coc-highlight',
       \ 'coc-spell-checker',
       \ 'coc-vimlsp',
       \ 'coc-phpls',
       \ 'coc-phpactor',
+      \ 'coc-go',
       \]
 
 " Use Tab to jump to next snippet placeholder
 let g:coc_snippet_next = '<S-Tab>'
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
+autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')

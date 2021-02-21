@@ -12,8 +12,8 @@ let g:ale_fixers = {
       \  'ruby': ['rubocop'],
       \  'php': ['php_cs_fixer'],
       \  'html': ['alex'],
-      \  'erb': ['erb']
+      \  'erb': ['erb'],
+      \  'go': ['gofmt']
       \}
 let g:ale_linter_aliases = {'tsx': ['typescriptreact', 'typescript']}
-let g:ale_disable_lsp = 1
 let g:ale_sign_error  = emoji#for('collision')
