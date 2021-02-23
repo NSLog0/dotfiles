@@ -46,13 +46,10 @@ inoremap <silent><expr> <CR>
 let g:coc_global_extensions = [
       \ 'coc-tsserver',
       \ 'coc-css',
-      \ 'coc-html',
       \ 'coc-json',
       \ 'coc-python',
       \ 'coc-snippets',
-      \ 'coc-highlight',
       \ 'coc-spell-checker',
-      \ 'coc-vimlsp',
       \ 'coc-phpls',
       \ 'coc-phpactor',
       \ 'coc-go',
@@ -62,4 +59,3 @@ let g:coc_global_extensions = [
 let g:coc_snippet_next = '<S-Tab>'
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
-autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
