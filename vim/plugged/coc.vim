@@ -15,7 +15,7 @@ endfunction
 set hidden
 set nobackup
 set nowritebackup
-set cmdheight=2
+" set cmdheight=2
 set updatetime=200
 set shortmess+=c
 set signcolumn=yes
@@ -58,4 +58,4 @@ let g:coc_global_extensions = [
 " Use Tab to jump to next snippet placeholder
 let g:coc_snippet_next = '<S-Tab>'
 
-autocmd CursorHold * silent call CocActionAsync('highlight')
+" autocmd CursorHold * silent call CocActionAsync('highlight')

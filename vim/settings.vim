@@ -37,5 +37,8 @@ set tabstop=2 shiftwidth=2 softtabstop=2 smarttab expandtab nocindent autoindent
 autocmd FileType python : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab nocindent autoindent
 autocmd FileType php : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab nocindent autoindent
 
-let g:python_host_prog = '/usr/bin/python2'
-let g:python3_host_prog = '/usr/local/bin/python'
+" for set vim-polyglot
+" set nocompatible
+
+" let g:python_host_prog = '/usr/bin/python2'
+" let g:python3_host_prog = '/usr/local/bin/python'
