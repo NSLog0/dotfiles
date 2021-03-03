@@ -19,8 +19,8 @@ set regexpengine=1
 set cursorline
 set synmaxcol=128
 " syntax sync minlines=256
-set re=1
-set autoread
+set re=0
+" set autoread
 "ignore case when searching.
 " set ignorecase
 
@@ -38,7 +38,7 @@ autocmd FileType python : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expa
 autocmd FileType php : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab nocindent autoindent
 
 " for set vim-polyglot
-" set nocompatible
+set nocompatible
 
 " let g:python_host_prog = '/usr/bin/python2'
 " let g:python3_host_prog = '/usr/local/bin/python'
