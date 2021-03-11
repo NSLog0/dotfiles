@@ -10,7 +10,7 @@ set wildmenu
 set noswapfile
 set guifont=FuraMono\ Nerd\ Font\ Mono:h14
 set number
-" set spell spelllang=en_us
+set spell spelllang=en_us
 set nowrap
 set termguicolors
 set t_Co=256
@@ -20,17 +20,13 @@ set cursorline
 set synmaxcol=128
 " syntax sync minlines=256
 set re=0
-" set autoread
+set autoread
 "ignore case when searching.
-" set ignorecase
+set ignorecase
 
 " Automatic word wrapping
 set tw=90
-
-autocmd BufWritePre * %s/\s\+$//e
-
 set modelines=10 " file level vim config
-
 set tabstop=2 shiftwidth=2 softtabstop=2 smarttab expandtab nocindent autoindent
 
 " file setting
