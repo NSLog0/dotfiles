@@ -1,1 +1,2 @@
-colorscheme nord
+" colorscheme nord
+color forgotten-dark

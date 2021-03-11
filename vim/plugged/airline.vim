@@ -1,4 +1,4 @@
-let g:airline_theme                           = 'nord'
+let g:airline_theme                           = 'kolor'
 let g:airline#extensions#tabline#enabled      = 1
 let g:airline#extensions#tabline#left_sep     = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
