@@ -47,12 +47,13 @@ let g:coc_global_extensions = [
       \ 'coc-tsserver',
       \ 'coc-css',
       \ 'coc-json',
-      \ 'coc-python',
+      \ 'coc-pyright',
       \ 'coc-snippets',
       \ 'coc-spell-checker',
       \ 'coc-phpls',
       \ 'coc-phpactor',
       \ 'coc-go',
+      \ 'coc-pyls',
       \]
 
 " Use Tab to jump to next snippet placeholder
