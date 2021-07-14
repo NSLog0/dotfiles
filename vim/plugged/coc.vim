@@ -49,13 +49,11 @@ let g:coc_global_extensions = [
       \ 'coc-json',
       \ 'coc-pyright',
       \ 'coc-snippets',
-      \ 'coc-spell-checker',
-      \ 'coc-phpls',
-      \ 'coc-phpactor',
       \ 'coc-go',
-      \ 'coc-pyls',
+      \ 'coc-jedi',
+      \ 'coc-yank',
+      \ 'coc-yaml',
       \]
-
 " Use Tab to jump to next snippet placeholder
 let g:coc_snippet_next = '<S-Tab>'
 
