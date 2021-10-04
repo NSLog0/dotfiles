@@ -20,12 +20,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/vim-easy-align'
 Plug 'sheerun/vim-polyglot'
-Plug 'arcticicestudio/nord-vim'
-Plug 'nightsense/forgotten'
 " Plug 'mileszs/ack.vim'
 " Plug 'StanAngeloff/php.vim'
 " Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
 " Plug 'stephpy/vim-php-cs-fixer'
 " Plug 'juliosueiras/vim-terraform-completion'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" themes
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'arcticicestudio/nord-vim'
+Plug 'jacoborus/tender.vim'
 call plug#end()

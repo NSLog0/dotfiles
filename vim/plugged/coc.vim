@@ -53,6 +53,7 @@ let g:coc_global_extensions = [
       \ 'coc-jedi',
       \ 'coc-yank',
       \ 'coc-yaml',
+      \ 'coc-vimlsp'
       \]
 " Use Tab to jump to next snippet placeholder
 let g:coc_snippet_next = '<S-Tab>'
