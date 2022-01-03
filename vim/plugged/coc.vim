@@ -53,12 +53,24 @@ let g:coc_global_extensions = [
       \ 'coc-jedi',
       \ 'coc-yank',
       \ 'coc-yaml',
-      \ 'coc-vimlsp'
+      \ 'coc-vimlsp',
+      \ 'coc-python',
+      \ 'coc-pyls',
+      \ 'coc-prettier',
+      \ 'coc-eslint',
+      \ 'coc-highlight',
+      \ 'coc-html',
+      \ 'coc-jedi',
+      \ 'coc-json',
+      \ 'coc-pyright',
+      \ 'coc-vetur',
       \]
 " Use Tab to jump to next snippet placeholder
 let g:coc_snippet_next = '<S-Tab>'
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " " Mappings for CoCList
 " " Show all diagnostics.
