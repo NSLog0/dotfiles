@@ -2,6 +2,7 @@ call plug#begin()
 " Plug 'vim-ruby/vim-ruby'
 Plug 'leafgarland/typescript-vim'
 Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
@@ -30,4 +31,6 @@ Plug 'sainnhe/everforest'
 " Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'arcticicestudio/nord-vim'
 Plug 'posva/vim-vue'
+Plug 'Yggdroot/indentLine'
+Plug 'tikhomirov/vim-glsl'
 call plug#end()
