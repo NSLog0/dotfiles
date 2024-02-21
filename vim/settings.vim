@@ -14,7 +14,6 @@ set spell spelllang=en_us
 set nowrap
 set termguicolors
 set t_Co=256
-set background=dark
 set regexpengine=1
 set cursorline
 set synmaxcol=128
@@ -33,6 +32,8 @@ set tabstop=2 shiftwidth=2 softtabstop=2 smarttab expandtab nocindent autoindent
 autocmd FileType python : set tabstop=4 shiftwidth=4 softtabstop=4 smarttab expandtab nocindent autoindent
 autocmd BufEnter *.{js,jsx,ts,tsx,py} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx,py} :syntax sync clear
+
+let g:python3_host_prog = '/opt/homebrew/bin/python3'
 
 " for set vim-polyglot
 " set nocompatible

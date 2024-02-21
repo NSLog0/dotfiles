@@ -1,5 +1,6 @@
-set background=dark
-colorscheme everforest
+" set background=dark
+" colorscheme everforest
+
 " colorscheme nord
 " colorscheme material
 
@@ -15,3 +16,6 @@ colorscheme everforest
 " syntax enable
 " colorscheme tender
 
+" set background=dark
+" colorscheme everforest
+colorscheme tokyonight-moon

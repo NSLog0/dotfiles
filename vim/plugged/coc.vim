@@ -26,7 +26,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
-nmap <leader>rn <Plug>(coc-rename)
+nmap <leader> gn <Plug>(coc-rename)
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 " inoremap <expr> <S-Tab> pumvisible() ? "\<C-n>" : "\<S-Tab>"
 inoremap <silent><expr> <Tab>
@@ -38,33 +38,30 @@ inoremap <silent><expr> <S-Tab>
   \ <SID>check_back_space() ? "\<S-Tab>" :
   \ coc#refresh()
 
+
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 " Press Enter to select completion items or expand snippets
-inoremap <silent><expr> <CR>
-  \ pumvisible() ? "\<C-y>" :
-  \ "\<C-g>u\<CR>"
+" inoremap <silent><expr> <CR>
+"   \ pumvisible() ? "\<C-y>" :
+"   \ "\<C-g>u\<CR>"
 
 let g:coc_global_extensions = [
       \ 'coc-tsserver',
       \ 'coc-css',
       \ 'coc-json',
-      \ 'coc-pyright',
+      \ 'coc-jedi',
       \ 'coc-snippets',
       \ 'coc-go',
-      \ 'coc-jedi',
       \ 'coc-yank',
       \ 'coc-yaml',
       \ 'coc-vimlsp',
-      \ 'coc-python',
-      \ 'coc-pyls',
-      \ 'coc-prettier',
+      \ '@raidou/coc-prettier-v3',
       \ 'coc-eslint',
       \ 'coc-highlight',
-      \ 'coc-html',
-      \ 'coc-jedi',
-      \ 'coc-json',
-      \ 'coc-pyright',
-      \ 'coc-vetur',
-      \]
+      \ 'coc-html']
 " Use Tab to jump to next snippet placeholder
 let g:coc_snippet_next = '<S-Tab>'
 
